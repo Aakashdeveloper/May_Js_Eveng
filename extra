@@ -52,3 +52,20 @@ npm
 var z="99a"-1;
 z is NaN 
 then why typeof(z) gives number as return type when its NaN?
+
+
+
+factorial
+palindrome
+reverse
+fabonicci
+
+
+> Gitbash
+> https://git-scm.com/downloads
+
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/testrepo.git
+git push -u origin master
