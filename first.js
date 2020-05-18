@@ -10,7 +10,7 @@ DataTypes
 > Number  876787 8896.56 94897549
 > Boolean true false
 > null
-> undefined
+> undefined => Variable declared not assigned any value
 
 //Es5
 var first = "hi"
