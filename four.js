@@ -10,3 +10,4 @@ var language = "English"
 
 //Es6 String literals
 `i am watching movies ${name} whose rating is ${rating} and language is ${language}.`
+

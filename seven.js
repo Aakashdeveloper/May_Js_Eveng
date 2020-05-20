@@ -166,3 +166,19 @@ Falsy  false 0 <0 undefined null
 Ternery Operator
 Date
 Switch
+
+///////
+var a = 20
+a>20?'hiii':'bie'
+var a = 20
+a>20?'hiii':'bie'
+"bie"
+a == 20 ? 'hiii':'bie'
+"hiii"
+a == 20 ? a+1:a-1
+21
+a > 20 ? a+1:a-1
+19
+
+
+<h1>{role==='admin'?'Allow Access':'Dont Allow'}</h1>

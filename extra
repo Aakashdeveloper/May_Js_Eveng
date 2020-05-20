@@ -6,11 +6,13 @@ Ecma 7
 > Operations
 > condition
 > localstorage
+> sessionStorage
 > String literals
 > if else
 > ternery Operations
 > Date
 > switch
+/////////////////////////////////
 > array
 > loops
 > functions 
