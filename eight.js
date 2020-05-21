@@ -46,3 +46,12 @@ switch(mydate.getDay()){
     default:
         console.log("Wrong Input");   
 }
+
+
+Date()
+"Wed May 20 2020 16:19:09 GMT+0100 (British Summer Time)"
+var mydate = new Date()
+undefined
+`${mydate.getDate()}/${mydate.getMonth()}/${mydate.getFullYear()}`
+
+"20/4/2020"
