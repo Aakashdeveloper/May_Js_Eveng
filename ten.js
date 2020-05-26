@@ -151,3 +151,31 @@ esle if user name start with (B,D,F,H,J,L)
 Say you come to office on ODD day
 eles you should take leave
 at last or any point we can check all the user name in array
+
+
+var city = ["Amsterdam", "Dubai",[1,2,3], "Nice", "London", "Innsburg", "NewYork", "Delhi", "Helsinki", "Paris"]
+
+var city = ["Amsterdam", "Dubai",[1,2,3], "Nice", "London", "Innsburg", "NewYork", "Delhi", "Helsinki", "Paris"]
+undefined
+city.flat()
+(12) ["Amsterdam", "Dubai", 1, 2, 3, "Nice", "London", "Innsburg", "NewYork", "Delhi", "Helsinki", "Paris"]
+var city = ["Amsterdam", "Dubai",[1,2,3,['a','b']], "Nice", "London", "Innsburg", "NewYork", "Delhi", "Helsinki", "Paris"]
+undefined
+city.flat()
+(13) ["Amsterdam", "Dubai", 1, 2, 3, Array(2), "Nice", "London", "Innsburg", "NewYork", "Delhi", "Helsinki", "Paris"]
+city.flat(2)
+(14) ["Amsterdam", "Dubai", 1, 2, 3, "a", "b", "Nice", "London", "Innsburg", "NewYork", "Delhi", "Helsinki", "Paris"]
+
+
+
+var city = ["Amsterdam", "Dubai",[1,2,3], "Nice", "London", "Innsburg", "NewYork", "Delhi", "Helsinki", "Paris"]
+
+undefined
+Array.isArray(city)
+true
+var d = "sfWE"
+undefined
+Array.isArray(city)
+true
+Array.isArray(d)
+false
