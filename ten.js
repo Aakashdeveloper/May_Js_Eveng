@@ -152,6 +152,22 @@ Say you come to office on ODD day
 eles you should take leave
 at last or any point we can check all the user name in array
 
+/*
+var name=prompt("enter the name")
+var name=name.toUpperCase()
+var evenday=['A','C','E','G'];
+var odday=['B','D','F'];
+if(evenday.indexOf(name.charAt(0))!== -1){
+    console.log("even day")
+}
+else if (odday.indexOf(name.charAt(0))!== -1){
+    console.log('Odd day')
+}
+else{
+    console.log('Not applicable')
+}
+*/
+
 
 var city = ["Amsterdam", "Dubai",[1,2,3], "Nice", "London", "Innsburg", "NewYork", "Delhi", "Helsinki", "Paris"]
 
