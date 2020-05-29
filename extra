@@ -20,8 +20,8 @@ Ecma 7
     > lat, const
     > maps,filter
 > Clousers
-/////////////////////////////////
 > Hoisting
+/////////////////////////////////
 > object 
 > this 
 > Transpile
@@ -30,6 +30,7 @@ Ecma 7
     > import export
 
 > Prototypes
+> Call/Apply
 > DoM
 > Geolocation
 > Form validation
