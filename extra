@@ -21,14 +21,13 @@ Ecma 7
     > maps,filter
 > Clousers
 > Hoisting
-/////////////////////////////////
-> object 
-> this 
 > Transpile
+> this 
 > Es6
     > classes
     > import export
-
+/////////////////////////////////
+> object 
 > Prototypes
 > Call/Apply
 > DoM
@@ -79,3 +78,9 @@ git push -u origin master
 git add .
 git commit -m "first commit"
 git push
+
+
+
+//////////////////////
+npm init -y
+npm i @babel/core @babel/register @babel/preset-env
