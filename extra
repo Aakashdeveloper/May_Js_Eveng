@@ -26,30 +26,41 @@ Ecma 7
 > Es6
     > classes
     > import export
-/////////////////////////////////
 > object 
 > Prototypes
 > Call/Apply
+> Github
+> package.JSON
+> npm
 > DoM
 > Geolocation
+/////////////////////////////////
+
 > Form validation
 > Event
 > Calc
+-1
 > currenyConvertor
 > promis
 > async await
+-2
+> Dynamic DropDown
+> screen
+-3
 > Weather application
 > ajax
 > Baisc Jquery
 > Progress bar
-> Dynamic DropDown
-> screen
+factorial
+-4
+palindrome
+reverse
+fabonicci
+-5
+
 -------------------------
 > JSON
-> Github
-//
-package.JSON
-npm
+
 
 var z="99a"-1;
 z is NaN 
@@ -57,10 +68,7 @@ then why typeof(z) gives number as return type when its NaN?
 
 
 
-factorial
-palindrome
-reverse
-fabonicci
+
 
 
 > Gitbash
@@ -84,3 +92,8 @@ git push
 //////////////////////
 npm init -y
 npm i @babel/core @babel/register @babel/preset-env
+
+
+id  > document.getElementById()
+class> document.getElementsByClassName()
+Tag> document.getElementsByTagName()

@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Events</title>
+        <script>
+            function color(){
+                document.getElementById('MyText').style.color="Red"
+            }
+            const color1 = () => {
+                document.getElementById('MyText').style.color="black"
+            }
+
+            const display = (action) => {
+                if(action=="hide"){
+                    document.getElementById('MyText').style.visibility="hidden"
+                }else{
+                    document.getElementById('MyText').style.visibility="visible"
+                }
+            }
+
+            /*const show = () => {
+                document.getElementById('MyText').style.visibility="visible"
+            }
+            const hide = () => {
+                document.getElementById('MyText').style.visibility="hidden"
+            }**/
+        </script>
+    </head>
+    <body>
+        <h1 id="MyText">This is JavaScript with Html</h1>
+        <button type="button"
+        onClick="color()">ChangeColor</button>
+        <button type="button"
+        onClick="color1()">Back</button>
+
+        <button type="button"
+        onClick="display('show')">Show</button>
+        <button type="button"
+        onClick="display('hide')">Hide</button>
+    </body>
+</html>
