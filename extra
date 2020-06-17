@@ -7,6 +7,7 @@ Ecma 7
 > condition
 > localstorage
 > sessionStorage
+> cookies
 > String literals
 > if else
 > ternery Operations
@@ -34,32 +35,25 @@ Ecma 7
 > npm
 > DoM
 > Geolocation
-/////////////////////////////////
-
 > Form validation
 > Event
 > Calc
--1
 > currenyConvertor
 > promis
 > async await
--2
-> Dynamic DropDown
+> Progress bar
+> JSON
+> palindrome
+> fabonicci
+> factorial
 > screen
--3
+/////////////////////////////////
+> Dynamic DropDown
 > Weather application
 > ajax
 > Baisc Jquery
-> Progress bar
-factorial
--4
-palindrome
-reverse
-fabonicci
--5
 
--------------------------
-> JSON
+
 
 
 var z="99a"-1;

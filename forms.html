@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Forms</title>
+        <script src="forms.js"></script>
+    </head>
+    <body>
+        <form method="POST" action="abc.py">
+            <div>
+                <label>FirstName*</label>
+                <input type="text" id="fname" name="fname"
+                onblur="requireFname()"/>
+                <p id="fout"></p>
+            </div>
+            <div>
+                <label>Password*</label>
+                <input type="text" id="pass" name="pass"
+                oninput="validatePass()"
+                />
+                <p id="pout"></p>
+            </div>
+            <div>
+                <label>Confirm Password*</label>
+                <input type="text" id="cpass" name="cpass"
+                oninput="validateCPass()"
+                />
+                <p id="cout"></p>
+            </div>
+            <div>
+                <label>Email</label>
+                <input type="text" id="email" name="email"
+                onblur="validateEmail()"
+                />
+                <p id="eout"></p>
+            </div>
+        </form>
+    </body>
+</html>
